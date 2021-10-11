@@ -1,0 +1,15 @@
+CheckRights.AccessAreasJSONMobile
+PublicMsgApi.SearchNotContacts
+СервисPDF.СтатусЗадания
+FileSD.GetQuota
+StaffMobile.ReadEmployee
+Отпуск.GetCertificatesForSign
+ПриемНаРаботу.GetCertificatesForSign
+DocView.GetPreview
+Person.GetPhoto
+МобильнаяЗадача_7.EvalRoles
+CAMobileApp.CertificateInstalled
+HSM.GetCertificateProperties
+HSM.CreateSignOnHashMass
+HSM.ReadCertificatesAccess
+MobileTask.Read

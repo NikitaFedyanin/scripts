@@ -1,0 +1,273 @@
+{
+    "result": {
+        "s": [
+            {
+                "t": "Строка",
+                "n": "attachId"
+            },
+            {
+                "t": "Строка",
+                "n": "redactionId"
+            },
+            {
+                "t": "Строка",
+                "n": "fileName"
+            },
+            {
+                "t": "Строка",
+                "n": "title"
+            },
+            {
+                "t": "Строка",
+                "n": "typeDoc"
+            },
+            {
+                "t": "Строка",
+                "n": "subTypeDoc"
+            },
+            {
+                "t": "Строка",
+                "n": "versionForm"
+            },
+            {
+                "t": "Строка",
+                "n": "subVersionForm"
+            },
+            {
+                "t": "Строка",
+                "n": "hash"
+            },
+            {
+                "t": "Строка",
+                "n": "folder"
+            },
+            {
+                "t": "Логическое",
+                "n": "folder@"
+            },
+            {
+                "t": "Логическое",
+                "n": "folder$"
+            },
+            {
+                "t": "Дата и время",
+                "n": "createDate"
+            },
+            {
+                "t": "Дата и время",
+                "n": "lastChange"
+            },
+            {
+                "t": "Логическое",
+                "n": "canEdit"
+            },
+            {
+                "t": "Число целое",
+                "n": "encrypted"
+            },
+            {
+                "t": "Логическое",
+                "n": "editable"
+            },
+            {
+                "t": "Число целое",
+                "n": "countError"
+            },
+            {
+                "t": "Строка",
+                "n": "relativeUrl"
+            },
+            {
+                "t": "Логическое",
+                "n": "required"
+            },
+            {
+                "t": "Число целое",
+                "n": "countRedactions"
+            },
+            {
+                "t": "Строка",
+                "n": "containerType"
+            },
+            {
+                "t": "Число целое",
+                "n": "countSigns"
+            },
+            {
+                "t": "Число целое",
+                "n": "signs"
+            },
+            {
+                "t": "Логическое",
+                "n": "link"
+            },
+            {
+                "t": "Строка",
+                "n": "ShareId"
+            },
+            {
+                "t": "Логическое",
+                "n": "incoming"
+            },
+            {
+                "t": "Логическое",
+                "n": "isScan"
+            },
+            {
+                "t": "UUID",
+                "n": "FileId"
+            },
+            {
+                "t": "Строка",
+                "n": "VersionId"
+            },
+            {
+                "t": "Логическое",
+                "n": "canView"
+            },
+            {
+                "t": "Число целое",
+                "n": "idPreviousRedactionSign"
+            },
+            {
+                "t": "Строка",
+                "n": "Object"
+            },
+            {
+                "t": "Логическое",
+                "n": "LikelyIntSigned"
+            },
+            {
+                "t": "Логическое",
+                "n": "canDelete"
+            },
+            {
+               "t": "Логическое",
+               "n": "IsMalware"
+            },
+            {
+               "t": "Строка",
+               "n": "dummyFileUrl"
+            },
+            {
+                "t": {
+                   "n": "Массив",
+                   "t": "Логическое"
+                },
+                "n": "flags"
+            },
+            {
+                "t": "UUID",
+                "n": "prntId"
+            },
+            {
+                "t": "Логическое",
+                "n": "_canEdit"
+            },
+            {
+                "t": "Логическое",
+                "n": "Deleted"
+            },
+            {
+                "t": "Логическое",
+                "n": "necessary"
+            }
+        ],
+        "d": [
+            [
+                "$__ДAL_ATTACHID1",
+                "$__ДAL_REDACTIONID1",
+                "$__ДAL_FILENAME1",
+                "$__ДAL_TITLE1",
+                null,
+                null,
+                null,
+                null,
+                "ignore",
+                null,
+                false,
+                null,
+                "$__ДAL_CREATEDATE1",
+                "$__ДAL_LASTCHANGE1",
+                true,
+                0,
+                false,
+                "ignore",
+                "ignore",
+                false,
+                1,
+                "приложение",
+                1,
+               "$__ДAL_FILEID3",
+                false,
+                null,
+                true,
+                false,
+                "ignore",
+                "ignore",
+                true,
+                null,
+                null,
+                false,
+                true,
+                false,
+                null,
+                null,
+                null,
+                false,
+                false,
+                null
+            ],
+            [
+                "$__ДAL_ATTACHID2",
+                "$__ДAL_REDACTIONID2",
+                "$__ДAL_FILENAME2",
+                "$__ДAL_TITLE2",
+                "РассылкаЭО",
+                "ПисьмоНО",
+                "5.01",
+                null,
+                "ignore",
+                null,
+                false,
+                null,
+                "$__ДAL_CREATEDATE2",
+                "$__ДAL_LASTCHANGE2",
+                true,
+                0,
+                false,
+               "$__ДAL_COUNTERROR2",
+                "ignore",
+                false,
+               "$__ДAL_COUNTREDACTIONS2",
+                "письмо",
+               "$__ДAL_COUNTSIGNS2",
+               "$__ДAL_SIGNS2",
+                false,
+                null,
+                true,
+               "$__ISSCAN2",
+                "ignore",
+                "ignore",
+                true,
+               "$__ДAL_ISSCAN2PREVIOS",
+                null,
+                false,
+                "ignore",
+                false,
+                null,
+                null,
+                null,
+                false,
+                false,
+                null
+            ]
+        ],
+        "_type": "recordset",
+        "f": 0,
+        "n": false
+    },
+    "id": 1,
+    "protocol": 4,
+    "jsonrpc": "2.0"
+}

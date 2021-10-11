@@ -1,0 +1,273 @@
+{
+    "protocol": 4,
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+        "s": [
+            {
+                "t": "Запись",
+                "n": "CommonData"
+            },
+            {
+                "t": "Выборка",
+                "n": "ReportStages"
+            }
+        ],
+        "d": [
+            {
+                "s": [
+                    {
+                        "t": "Логическое",
+                        "n": "IsEncrypted"
+                    },
+                    {
+                        "t": "Число целое",
+                        "n": "NoticeType"
+                    },
+                    {
+                        "t": "Запись",
+                        "n": "FaceCreatorProfile"
+                    },
+                    {
+                        "t": "Число целое",
+                        "n": "SendDocShortState"
+                    },
+                    {
+                        "t": "Число целое",
+                        "n": "DocShortState"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "DocName"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "DocShortName"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "StateInspName"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "StateInspCode"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "StateInspCaption"
+                    },
+                    {
+                        "t": "Число целое",
+                        "n": "StateInspType"
+                    },
+                 {
+                   "n": "StateInspRegion",
+                   "t": "Строка"
+                },
+                    {
+                        "t": "Строка",
+                        "n": "OurOrgName"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "DocType"
+                    },
+                    {
+                        "t": "Дата и время",
+                        "n": "EventDateTime"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "DocSubType"
+                    },
+                    {
+                        "t": "Дата и время",
+                        "n": "DateTime"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "IconLink"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "DocSum"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "RepPeriodName"
+                    },
+                    {
+                        "t": "Логическое",
+                        "n": "IsComplect"
+                    },
+                    {
+                        "t": "Выборка",
+                        "n": "Files"
+                    },
+                    {
+                        "t": {
+                            "t": "Число целое",
+                            "n": "Массив"
+                        },
+                        "n": "EventsIds"
+                    }
+                ],
+                "d": [
+                    false,
+                   "$__ERNGMAD_NOTICETYPE",
+                    {
+                        "s": [
+                            {
+                                "t": "Число целое",
+                                "n": "ClientId"
+                            },
+                            {
+                                "t": "Число целое",
+                                "n": "FaceId"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "PersonId"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "Surname"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "Name"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "Patronymic"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "Post"
+                            }
+                        ],
+                        "d": [
+                           "$__ERNGMAD_COMMONDATA_FACECREATORPROFILE_CLIENTID",
+                           "$__ERNGMAD_COMMONDATA_FACECREATORPROFILE_FACEID",
+                            "$__ERNGMAD_COMMONDATA_FACECREATORPROFILE_PERSONID",
+                            "$__ERNGMAD_COMMONDATA_FACECREATORPROFILE_SURNAME",
+                            "$__ERNGMAD_COMMONDATA_FACECREATORPROFILE_NAME",
+                            "$__ERNGMAD_COMMONDATA_FACECREATORPROFILE_PATRONYMIC",
+                            "Адекватное подразделение"
+                        ],
+                        "f": "ignore",
+                        "_type": "record"
+                    },
+                    7,
+                    7,
+                    "$__ERNGMAD_ДОКУМЕНТРАСШИРЕНИЕ1НАЗВАНИЕ",
+                    "2-НДФЛ",
+                    "$__ERNGMAD_COMMONDATA_STATEINSPNAME",
+                    "9992",
+                    "$__ERNGMAD_COMMONDATA_STATEINSCAPTION",
+                    1,
+                    "Ярославская область",
+                    "Мобильное АПИ",
+                    "ОтчетФНС",
+                    null,
+                    "1151078",
+                    "$__ERNGMAD_COMMONDATA_DATETIME",
+                    "/cdn/EOCDN/img/1.0.0/inspections/165x165/FNS.png",
+                    null,
+                    "$__ERNGMAD_ГОД",
+                    true,
+                    {
+                        "s": [
+                            {
+                                "t": "Число целое",
+                                "n": "@ВнешнийДокумент"
+                            },
+                            {
+                                "t": "Число целое",
+                                "n": "@ВерсияВнешнегоДокумента"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "Название"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "ИмяФайла"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "ТипДокумента"
+                            },
+                            {
+                                "t": "Строка",
+                                "n": "ПодТипДокумента"
+                            }
+                        ],
+                        "d": [
+                            [
+                               "$__ERNGMAD_COMMONDATA_FILES_1ВНЕШНИЙДОКУМЕНТ1",
+                               "$__ERNGMAD_COMMONDATA_FILES_1ВЕРСИЯВНЕШНЕГОДОКУМЕНТА1",
+                                "$__ERNGMAD_COMMONDATA_FILES_НАЗВАНИЕ1",
+                                "$__ERNGMAD_COMMONDATA_FILES_ИМЯФАЙЛА1",
+                                "$__КGMAD_FILES_ТИПДОКУМЕНТА1",
+                                "$__ERNGMAD_COMMONDATA_FILES_ПОДТИПДОКУМЕНТА1"
+                            ],
+                            [
+                               "$__ERNGMAD_COMMONDATA_FILES_1ВНЕШНИЙДОКУМЕНТ2",
+                               "$__ERNGMAD_COMMONDATA_FILES_1ВЕРСИЯВНЕШНЕГОДОКУМЕНТА2",
+                                "$__ERNGMAD_COMMONDATA_FILES_НАЗВАНИЕ2",
+                                "$__ERNGMAD_COMMONDATA_FILES_ИМЯФАЙЛА2",
+                                "$__КGMAD_FILES_ТИПДОКУМЕНТА1",
+                                "$__ERNGMAD_COMMONDATA_FILES_ПОДТИПДОКУМЕНТА2"
+                            ]
+                        ],
+                        "f": "ignore",
+                        "_type": "recordset"
+                    },
+                    [
+                        "ignore"
+                    ]
+                ],
+                "f": "ignore",
+                "_type": "record"
+            },
+            {
+                "s": [
+                    {
+                        "t": "Число целое",
+                        "n": "Type"
+                    },
+                    {
+                        "t": "Строка",
+                        "n": "Caption"
+                    },
+                    {
+                        "t": "Дата и время",
+                        "n": "DateTime"
+                    }
+                ],
+                "d": [
+                    [
+                        0,
+                        "Срок сдачи",
+                        "$__ERNGMAD_СРОК_СДАЧИ"
+                    ],
+                    [
+                        1,
+                        "Отправлено",
+                        "ignore"
+                    ],
+                    [
+                        3,
+                        "Положительный протокол",
+                        "$__ERNGMAD_REPORTSTAGES_DATETIME3"
+                    ]
+                ],
+                "f": "ignore",
+                "_type": "recordset"
+            }
+        ],
+        "f": "ignore",
+        "_type": "record"
+    }
+}

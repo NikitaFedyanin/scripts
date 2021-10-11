@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "protocol": 4,
+    "result": {
+        "EMAIL": false,
+        "PUSH": $_PUSH,
+        "SMS": false,
+        "STOMP": true
+    }
+}
