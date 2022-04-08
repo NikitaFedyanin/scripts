@@ -89,4 +89,4 @@ def execute(path_dir):
     print(f'Найдено совпадений: {start_len - len(methods)} из {start_len}')
 
 
-execute(r'E:\controllers\communicator')
+execute(r'C:\Работа\Controllers\communicator')
