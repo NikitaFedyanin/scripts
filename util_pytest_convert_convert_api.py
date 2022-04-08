@@ -102,10 +102,7 @@ def convert_all(lines, path):
         start_import = new_lines.index('import')
     except ValueError:
         start_import = 9999
-    try:
-        start_import2 = new_lines.index('from')
-    except:
-        pass
+    start_import2 = new_lines.index('from')
     _min = min((start_import2, start_import))
     new_imports = 'import pytest\n'
                   # 'from pytest_atf.case import TestCase\n' \
@@ -337,10 +334,7 @@ def convert_data_decorator(file_str):
                 func = re_empty.sub(' ', func)
                 match = func_param.search(func)
                 params = match.group(1)
-                try:
-                    start_params = match.start(1)
-                except:
-                    pass
+                start_params = match.start(1)
                 params_pytest = params.strip().replace('**', '').replace('*', '')
                 params_pytest = ', '.join([i.strip() for i in params_pytest.split(',')])
                 indent = " " * 4
