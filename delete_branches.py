@@ -4,7 +4,7 @@
 import gitlab
 from datetime import datetime
 
-token = 'yFttYNfq2fWZMpdYMfoe'
+token = 'xNyoP-_5iN12u7agTFKC'
 
 
 def delete_branches(repo, group, project):
